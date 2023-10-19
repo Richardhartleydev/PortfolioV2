@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
 :root {
-  --header-font: "Noto Serif", serif;
-  --sub-font: "Poppins", sans-serif;
+  --main-font: "Poppins", sans-serif;
   --text-font: "Crimson Text", serif;
   --main-text-clr: #403f3f;
   --sub-text-clr: #4a94ca;
@@ -11,7 +10,7 @@
 }
 
 body {
-  font-family: var(--sub-font);
+  font-family: var(--main-font);
   background: var(--background-clr);
   color: var(--main-text-clr);
   overflow-x: hidden !important;
@@ -138,7 +137,7 @@ html {
   position: relative;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  font-family: var(--sub-font);
+  font-family: var(--main-font);
   font-size: 18px;
 }
 
@@ -370,6 +369,11 @@ html {
   font-family: var(--text-font);
   font-weight: bold;
   font-size: 4rem;
+  margin-top: -40px;
+}
+
+.about-title-skills {
+  font-size: 4rem;
   margin-top: -30px;
 }
 
@@ -378,7 +382,8 @@ html {
 }
 
 .about-title-contact {
-  font-size: 3.2rem;
+  font-size: 3rem;
+  margin-top: -40px;
 }
 
 .contact {
@@ -760,13 +765,28 @@ img.icons-used:hover {
 }
 
 /* IPHONE SE / 5 */
-@media (max-width: 373px) {
+@media (max-width: 375px) {
   .hero-title {
     font-size: 2.2rem;
+  }
+  .about-who {
+    font-size: 2rem;
+  }
+  .about-paragraph {
+    font-size: 1.6rem;
   }
   .hero-paragraph {
     font-size: 17px;
     line-height: 10px !important;
+  }
+  .icon-container {
+    width: 120px;
+    margin-bottom: -10px;
+    scale: 70%;
+  }
+  .about-header-portfolio {
+    margin-top: -350px;
+    margin-bottom: 40px;
   }
 }
 
@@ -774,7 +794,40 @@ img.icons-used:hover {
 @media (max-width: 321px) {
   .hero-paragraph {
     font-size: 15px;
-    line-height: 14px !important;
+    line-height: 11px !important;
+  }
+  .about-who {
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+  .about-header {
+    font-size: 1.6rem;
+    padding-bottom: 15px;
+    margin-top: -80px;
+  }
+  .about-paragraph {
+    font-size: 1.4rem;
+  }
+  .about-paragraph-two * {
+    font-size: 1rem;
+  }
+  .about-title-skills {
+    font-size: 1.8rem;
+    margin-top: 60px;
+    margin-bottom: 10px !important;
+  }
+  .about-header-portfolio {
+    margin-top: -400px;
+    margin-bottom: 20px;
+  }
+  .portfolio-individual-text h4 {
+    font-size: 1.6rem;
+  }
+  .about-header-contact {
+    margin-top: 20px;
+  }
+  .about-title-contact {
+    font-size: 1.6rem;
   }
 }
 
