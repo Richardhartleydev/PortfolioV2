@@ -697,6 +697,13 @@ img.icons-used:hover {
   .icon-links img {
     height: 2.8rem;
   }
+  .hero-paragraph {
+    font-size: 22px;
+    line-height: 14px !important;
+  }
+  .hero-title {
+    font-size: 2.8rem;
+  }
 }
 
 /* SMOOTH FLOW */
@@ -714,7 +721,7 @@ img.icons-used:hover {
     font-size: 2.6rem;
   }
   .hero-paragraph {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 14px !important;
   }
 }
@@ -767,7 +774,7 @@ img.icons-used:hover {
 /* IPHONE SE / 5 */
 @media (max-width: 375px) {
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .about-who {
     font-size: 2rem;
@@ -776,7 +783,7 @@ img.icons-used:hover {
     font-size: 1.6rem;
   }
   .hero-paragraph {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 10px !important;
   }
   .icon-container {
@@ -795,6 +802,9 @@ img.icons-used:hover {
   .hero-paragraph {
     font-size: 15px;
     line-height: 11px !important;
+  }
+  .hero-title {
+    font-size: 1.9rem;
   }
   .about-who {
     font-size: 2rem;
