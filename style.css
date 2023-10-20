@@ -532,6 +532,7 @@ p.project-paragraph {
 
 .icons-used {
   max-width: 40px;
+  max-height: 42px;
   margin-right: 5px;
   transition: 0.2s ease-in-out;
 }
@@ -636,6 +637,10 @@ img.icons-used:hover {
   }
   .resume-button-about {
     margin-left: 0;
+  }
+  .portfolio-img-update {
+    pointer-events: none;
+    margin-left: 12px;
   }
 }
 
@@ -769,6 +774,13 @@ img.icons-used:hover {
   .footer-code {
     margin-top: -160px;
   }
+  .portfolio-img-update {
+    margin-left: 14px;
+  }
+  .footer-code {
+    padding-bottom: 0px;
+    margin: 0px;
+  }
 }
 
 /* IPHONE SE / 5 */
@@ -794,6 +806,10 @@ img.icons-used:hover {
   .about-header-portfolio {
     margin-top: -350px;
     margin-bottom: 40px;
+  }
+  .project-icons-container {
+    margin-top: 0px;
+    scale: 95%;
   }
 }
 
